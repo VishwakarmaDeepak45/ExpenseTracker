@@ -14,7 +14,7 @@ mongoose.connect('mongodb://localhost/expenseTracker', {
 
 app.use(bodyParser.json());
 
-app.use('/api/transaction',routes);
+app.use('/api',routes);
 
 //error handling middleware
 app.use((err, req, res, next)=>{

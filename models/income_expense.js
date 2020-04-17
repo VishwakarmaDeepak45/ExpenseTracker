@@ -24,5 +24,6 @@ const IncomeExpenseSchema = new Schema({
     },
 })
 
+// created table in db and table name is "income_expense"
 const IncomeExpense = mongoose.model('income_expense', IncomeExpenseSchema)
 module.exports = IncomeExpense;
